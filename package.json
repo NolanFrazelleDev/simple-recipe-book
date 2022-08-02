@@ -1,0 +1,27 @@
+{
+  "name": "simple-recipe-book",
+  "version": "1.0.0",
+  "description": "This is an app that will keep track of recipes that I create. This is also will be other information such as server setup, db connections, and etc.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NolanFrazelleDev/simple-recipe-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NolanFrazelleDev/simple-recipe-book/issues"
+  },
+  "homepage": "https://github.com/NolanFrazelleDev/simple-recipe-book#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1"
+  }
+}
